@@ -1,0 +1,8 @@
+$$ What happens when you initialize a repository? Why do you need to do it?
+- I get a message stating that I "initialized" a repository (whether it was empty or not)
+- and it creates a .git directory in that directory, which will track all the changes
+
+$$ How is the staging area different from the working directory and the repository? What value do you think it offers?
+- the staging area is a buffer where I select all the files I want to commit together
+- the working directory is the place where I work and make change. I can even put files in that directory that I kee untracked (I will not commit them)
+- the repository has all the files and their history of the changes whenever I committed them
