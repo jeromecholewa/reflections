@@ -1,0 +1,8 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+A: There are several cases:
+  1. I need to have a safe place where I keep my files. If I lose my PC or my PC breaks down, I can find my files
+  here in the remote repository
+  2. If there are several people working on the project, several people can create new branches and work
+  independently. Then I can merge the branches whenever necessary. If I worked only locally nobody would be able
+  to contribute to my file.
+  
