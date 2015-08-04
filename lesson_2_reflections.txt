@@ -8,4 +8,8 @@ $$ How is the staging area different from the working directory and the reposito
 - the repository has all the files and their history of the changes whenever I committed them
 
 $$ How can you use the staging area to make sure you have one commit per logical change?
-As soon as I do a significant change I add the file into the staging area by using git add... That way I know that the file is staged and will be committed next.
+- As soon as I do a significant change I add the file into the staging area by using git add... That way I know that the file is staged and will be committed next.
+
+$$ What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- if we want to create a special version of a file while keeping the original easily available, then branching makes sense
+- if we want to try out some new features but we are not sure we need them in the final version, then branching makes sense.
