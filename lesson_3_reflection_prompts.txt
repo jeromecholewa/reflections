@@ -6,3 +6,7 @@ A: There are several cases:
   independently. Then I can merge the branches whenever necessary. If I worked only locally nobody would be able
   to contribute to my file.
   
+Q: Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+A: not all changes on GitHub are OK before I checked them, if there are several people working on my project
+So I need to check the contribution of other people before pulling the changes to my local drive.
