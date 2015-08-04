@@ -6,3 +6,6 @@ $$ How is the staging area different from the working directory and the reposito
 - the staging area is a buffer where I select all the files I want to commit together
 - the working directory is the place where I work and make change. I can even put files in that directory that I kee untracked (I will not commit them)
 - the repository has all the files and their history of the changes whenever I committed them
+
+$$ How can you use the staging area to make sure you have one commit per logical change?
+As soon as I do a significant change I add the file into the staging area by using git add... That way I know that the file is staged and will be committed next.
