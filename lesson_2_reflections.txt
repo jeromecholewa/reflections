@@ -24,3 +24,12 @@ $$ What is the result of merging two branches together? Why do we represent it i
 - commits are interleaved
 - to find the diff between one commit and the parent we can use:
 			diff show <commitid>
+$$ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- git can sometimes find conflicts between 2 commits that need to be
+merged because 2 people did some changes in the same lines of codes and 
+git cannot decide which one should be kept.
+- doing it manually you are then sure of which changes can be kept and which ones are to be deleted
+- anyway this means you may have to have direct contact with the other
+person doing some changes
+
+
