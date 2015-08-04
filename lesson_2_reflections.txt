@@ -17,3 +17,10 @@ $$ What are some situations when branches would be helpful in keeping your histo
 $$ How do the diagrams help you visualize the branch structure?
 - it is nice to nice where one branch started and therefore which changes were committed in that branch (which were not committed within the master branch)
 - How do I know the full list of all branches...?
+
+$$ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- the files of the "side-branch" get merged with the files of the the branch being currently checked out.
+- we do not need the label of the previous branch as we can track commits through the main branch
+- commits are interleaved
+- to find the diff between one commit and the parent we can use:
+			diff show <commitid>
