@@ -6,16 +6,28 @@ A: There are several cases:
   independently. Then I can merge the branches whenever necessary. If I worked only locally nobody would be able
   to contribute to my file.
   
-Q: Why might you want to always pull changes manually rather than having Git automatically
+Q: Why might you want to always pull changes manually rather than having
+ Git automatically
 stay up-to-date with your remote repository?
-A: not all changes on GitHub are OK before I checked them, if there are several people working on my project
-So I need to check the contribution of other people before pulling the changes to my local drive.
+A: not all changes on GitHub are OK before I checked them, if there are
+several people working on my project
+So I need to check the contribution of other people before pulling the
+ changes to my local drive.
 
 Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
-A: FORKS: it is used only on github (not on the local repository on my computer). It is used to make a copy of someone else's repository so that we can use and modify their files indepently from them.
-Still using forks makes it easy to propose your own changes to the original author of the files
+A: FORKS: it is used only on github (not on the local repository on my 
+computer). It is used to make a copy of someone else's repository so that 
+we can use and modify their files indepently from them.
+Still using forks makes it easy to propose your own changes to the 
+original author of the files
 CLONES: they are used either on the local computer (to be learned in
-another lesson) or to clone a repository from GitHub to my local computer (and hence create a local repository, linked to the remote on GitHub)
+another lesson) or to clone a repository from GitHub to my local computer
+(and hence create a local repository, linked to the remote on GitHub)
 BRANCHES: are used in one specific repository (remote or local) in order
 to explore some new features of a file (specific code, specific options)
 that you are not sure yet to implement in your production file.
+
+Q: What is the benefit of having a copy of the last known state of the 
+remote stored locally?
+A: The benefit is that, even offline, we know the status of the remote
+ repository state, at the last time it was synced with the local repo
