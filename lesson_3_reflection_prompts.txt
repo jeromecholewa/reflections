@@ -31,3 +31,14 @@ Q: What is the benefit of having a copy of the last known state of the
 remote stored locally?
 A: The benefit is that, even offline, we know the status of the remote
  repository state, at the last time it was synced with the local repo
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A: without git or github, collaborating would be more difficult, less
+organized. People would send each other files or post files on a 
+common platform like dropbox, they would have to agree of a file 
+naming and version system and it would be more difficult to compare files
+with each other (or you would have to use special software to compare 
+files)
+With Git and github all the versioning and history is available to 
+everyone involved in the project and it is easy to compare files
+before deciding to accept, reject or change a modification request.
