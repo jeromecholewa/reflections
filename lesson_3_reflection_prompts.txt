@@ -42,3 +42,11 @@ files)
 With Git and github all the versioning and history is available to 
 everyone involved in the project and it is easy to compare files
 before deciding to accept, reject or change a modification request.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A: Working directly in the master is easier and more straightforward = 
+no need to merge branches! But if you are not sure whether a modification
+ is good or ready for production, and if you need someone to check that
+ change before agreeing to it, you might want to create a branch taht will
+ be easily checked and compared to the master branch before the final
+ decision is made, that is "merging"
